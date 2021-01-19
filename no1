@@ -1,0 +1,149 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>2021 꽃길만 걷으세요</title>
+    
+  
+
+    <meta property="og:image" content="https://lh3.googleusercontent.com/proxy/Ba35hCJ5appgHzxkbXVyunA_WuyFHAyNgAoJZn3xHlcWB0YtIgRbbbnngkVYRAYs7rKrZpQSeH0Igp3HPh8Soql-I8tQCQgNXMf54Qlxmc8S8HQqSQB-nNxcOU9y5uOLzxZn2h99591PjOEOn4hi9orDSnziuCTGpvgwyP9rYAo1uraGIX-x6lxD56pMypu9FcX1VZcSFJbIi1cVMq3oC3kY2f1VcLQ">
+<meta property="og:title" content="송윤호부장님께">
+<meta property="og:description" content="부장님 감사합니다">
+	</script>
+
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-Wh4oSoEOPS-qCE0_ICSz5OQkRO3fQrV2Qg&usqp=CAU">
+    <script src="https://s3.ap-northeast-2.amazonaws.com/materials.spartacodingclub.kr/xmas/snow.js"></script>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poor+Story&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poor Story', cursive;
+        }
+
+        body {
+           background-color: #13974f;
+
+        }
+
+        .envelope {
+            width: 200px;
+            height: 200px;
+            background-image: url('https://pngimg.com/uploads/envelope/envelope_PNG18366.png');
+            background-size: cover;
+            background-position: center;
+            margin: 200px auto 0px auto;
+
+            cursor: pointer;
+        }
+
+        .envelope-msg {
+            color:  rgb(233, 252, 150);
+            text-align: center;
+        }
+
+        .letter-close {
+            display: block;
+        }
+
+        .letter-open {
+            display: none;
+        }
+
+        .sun {
+            background-color: rgb(247, 109, 109);
+            width: 200px;
+            height: 200px;
+            background-image: url('https://mblogthumb-phinf.pstatic.net/MjAyMDA3MjlfNDUg/MDAxNTk1OTUxMDcxMzMy.-czBOPWLLwlGI03dc6vWV9oBS50CsEf68hPFcV2V8a0g.pFbgaa3MkKjIHJVQaC_mACvYoQLEvIqoOJD5CAqKqQQg.GIF.jeongloveletter92/%EA%B7%B8%EB%8F%99%EC%95%88%EA%B0%90%EC%82%AC.gif?type=w800');
+            background-size: cover;
+            background-position: center;
+            margin: 100px auto 0px auto;
+
+            border-radius: 30px;
+            border: 0.5px solid white;
+            box-shadow: 0px 0px 10px 0px white;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        }
+
+        .msbox {
+            background-color: ivory;
+            width: 500px;
+            margin: auto;
+            color:  rgb(51, 94, 43);
+            padding: 15px;
+            font-size: 20px;
+            line-height: 30px;
+            text-align: center;
+        }
+
+        .from {
+            text-align: right;
+            margin: 0px;
+        }
+
+        @media screen and (max-width: 760px) {
+            .msbox {
+                width: 300px;
+                padding: 20px;
+            }
+        }
+    </style>
+
+    <script>
+        function open_letter() {
+            document.getElementsByClassName("letter-close")[0].style.display = 'none'
+            document.getElementsByClassName("letter-open")[0].style.display = 'block'
+        }
+
+        function go_sun() {
+            alert('더 큰 기회를 주셔서 감사합니다 :) 더 멋진 부장님을 응원할게요 파이팅!')
+        }
+    </script>
+
+</head >
+
+            <body>
+                <div class="letter-close">
+                    <div class="envelope" onclick="open_letter()"></div>
+                    <h2 class="envelope-msg">봉투를 열어주세요!</h2>
+                </div>
+
+                <div class="letter-open">
+                    <div class="sun" onclick="go_sun()"></div>
+                    <h1> 2021년<br />
+            새해 복 많이 받으세요!</h1>
+                    <div class="msbox">
+               송윤호 부장님께 <br />
+			   <br />
+            지난1년이 훌쩍 지나가버렸네요. <br />
+	신입으로 들어와 짧은 시간이었던 만큼 좋은 모습만 보여드리고 싶었는데 <br />
+            제 부족한 면까지 끌고 와주셔서 감사합니다. <br />
+            부장님의 자리에서 팀을 위해 그동안 <br /> 
+	애써주신 모습이 대단해보였습니다. <br />
+            퇴사 전에 부장님과 더 많은 얘길 나누고 싶었습니다 <br />
+            아쉬움을 묻어두고 저의 흠보다 조금이나마 <br />
+ 	좋았던 모습을 기억해주시는 아량을 베풀어주세요 ㅎㅎ <br />
+            앞으로도 팀의 중심으로 팀원들 모두를 이끌어가주시는 <br />
+			든든한 부장님의 모습 응원하겠습니다 <br /> 
+
+            항상 건강하시고 2021년에도 새해 복 많이 받으세요! <br />
+			<br />
+ 
+
+                        <p class=from>"2021.01.19 양규진 드림"</p>
+                    </div>
+
+                </div>
+            </body>
+
+</html >
